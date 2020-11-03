@@ -4,7 +4,7 @@ import { Button } from "@material-ui/core";
 import Search from './Search';
 import { useHistory } from "react-router-dom";
 
-function Banner() {
+function Banner() { 
     const history = useHistory();
     const [showSearch, setShowSearch] = useState(false);
 
